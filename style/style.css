@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 200vh;
+}
+.active {
+    color: aqua;
+}
+.teachers-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #00000077;
+}
+.modal {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+}
+.Show-more-gnr {
+    display: none;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+}
+.show-more-gnr2 {
+    display: grid;
+}
